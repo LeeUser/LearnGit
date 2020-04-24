@@ -41,10 +41,10 @@ git push 仓库别名 仓库分支名
 然后你使用上述的命令配置好之后，再操作一次git pull，然后它会提示你输入账号密码，这一次之后就不需要再次输入密码了。
 
 ## （2）国内加速访问Github
-+ 1.修改本地电脑系统hosts文件 <br>
++ - 修改本地电脑系统hosts文件 <br>
 	192.30.253.112 github.com <br>
 	151.101.184.133 assets-cdn.github.com <br>
 	151.101.185.194 github.global.ssl.fastly.net<br>
-  2.刷新系统dns缓存 <br>
+  - 刷新系统dns缓存 <br>
     用WIN+R快捷键打开运行窗口，输入命令：cmd并回车进入命令行窗口。<br>
     接着输入命令：ipconfig /flushdns回车后执行刷新本地dns缓存数据即可。
