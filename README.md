@@ -48,3 +48,9 @@ git push 仓库别名 仓库分支名
 + 刷新系统dns缓存 <br>
     用WIN+R快捷键打开运行窗口，输入命令：cmd并回车进入命令行窗口。<br>
     接着输入命令：ipconfig /flushdns回车后执行刷新本地dns缓存数据即可。
+## （3）查看当前库的状态
++ git config -l 或者git remote -v <br>
+	可以查看当前的用户信息 和当前的库连接信息。
+## （4）更改当前库的配置
++ git remote remove origin <br>
+	如果要删除一个仓库，可以用git remote remove <仓库名>来删除这个仓库：
